@@ -1,0 +1,57 @@
+Problem 1
+exam1 = float(input("Enter first exam score: "))
+exam2 = float(input("Enter second exam score: "))
+
+total = (exam1 * 0.60) + (exam2 * 0.40)
+
+print(f"Total score: {total:.2f}")
+
+Problem 2 
+ticker = input("Enter stock ticker symbol: ")
+shares = float(input("Enter number of shares: "))
+cost_per_share = float(input("Enter cost per share: "))
+
+investment = shares * cost_per_share
+
+print(f"Stock: {ticker}")
+print(f"Total amount invested: ${investment:.2f}")
+
+Problem 3 
+last_name = input("Enter last name: ")
+midterm = float(input("Enter midterm score: "))
+final = float(input("Enter final exam score: "))
+
+total_points = (midterm * 0.40) + (final * 0.60)
+
+print(f"{last_name}'s total exam points: {total_points:.2f}")
+
+Problem 4
+total_amount = float(input("Enter total amount received: "))
+
+split = total_amount / 3
+
+print(f"Each person receives: ${split:.2f}")
+
+Problem 5
+exam1 = float(input("Enter first exam score: "))
+exam2 = float(input("Enter second exam score: "))
+
+total = (exam1 * 0.60) + (exam2 * 0.40)
+
+print(f"Total score: {total:.2f}")
+
+Problem 6 
+purchase_price = float(input("Enter purchase price per share: "))
+current_price = float(input("Enter current stock price: "))
+quantity = float(input("Enter quantity of stock: "))
+
+value_change = (current_price - purchase_price) * quantity
+
+print(f"Change in value: ${value_change:.2f}")
+
+if value_change > 0:
+    print("You made a profit.")
+elif value_change < 0:
+    print("You are losing money.")
+else:
+    print("No gain or loss.")
