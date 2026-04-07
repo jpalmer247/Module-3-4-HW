@@ -48,10 +48,3 @@ quantity = float(input("Enter quantity of stock: "))
 value_change = (current_price - purchase_price) * quantity
 
 print(f"Change in value: ${value_change:.2f}")
-
-if value_change > 0:
-    print("You made a profit.")
-elif value_change < 0:
-    print("You are losing money.")
-else:
-    print("No gain or loss.")
